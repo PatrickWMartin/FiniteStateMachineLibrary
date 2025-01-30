@@ -24,13 +24,13 @@ A JavaScript library for **Deterministic Finite State Machines (FSMs)**
 - `acceptingStates` (`Set<string>`): The set of accepting states for the FSM.
 
 #### Methods:
-`getCurrentState()`: 
+#### `getCurrentState()`: 
 Returns the current state the FSM is in.
 
 #### Returns:
  - `string`: The current state of the FSM.
 
-`process(input, verbose = false)`:
+#### `process(input, verbose = false)`:
 Processes an input sequence through the FSM.
 
 #### Parameters:
@@ -40,7 +40,7 @@ Processes an input sequence through the FSM.
 #### Returns:
 - `string`: The final state after processing the input.
 
-`processAndReset(input, verbose = false)`:
+#### `processAndReset(input, verbose = false)`:
 Processes an input sequence and resets the FSM to its initial state after execution.
 
 #### Parameters:
@@ -50,10 +50,10 @@ Processes an input sequence and resets the FSM to its initial state after execut
 #### Returns:
 - `string`: The final state after processing the input.
 
-`reset()`:
+#### `reset()`:
 Resets the FSM to its initial state.
 
-`isInAcceptedState()`:
+#### `isInAcceptedState()`:
 Checks if the FSM is currently in an accepting state.
 
 #### Returns:
