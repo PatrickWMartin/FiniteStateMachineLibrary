@@ -28,27 +28,27 @@ A JavaScript library for **Deterministic Finite State Machines (FSMs)**
 Returns the current state the FSM is in.
 
 #### Returns:
- - `String`: The current state of the FSM.
+ - `string`: The current state of the FSM.
 
 `process(input, verbose = false)`:
 Processes an input sequence through the FSM.
 
 #### Parameters:
-`input` (`string` | `string[]`): The input sequence to be processed.
-`verbose` (`boolean`, `optional`): A logging flag to show console output.
+- `input` (`string` | `string[]`): The input sequence to be processed.
+- `verbose` (`boolean`, `optional`): A logging flag to show console output.
 
 #### Returns:
-String: The final state after processing the input.
+- `string`: The final state after processing the input.
 
 `processAndReset(input, verbose = false)`:
 Processes an input sequence and resets the FSM to its initial state after execution.
 
 #### Parameters:
-`input` (`string` | `string[]`): The input sequence to be processed.
-`verbose` (`boolean`, `optional`): A logging flag to show console output.
+- `input` (`string` | `string[]`): The input sequence to be processed.
+- `verbose` (`boolean`, `optional`): A logging flag to show console output.
 
 #### Returns:
-`string`: The final state after processing the input.
+- `string`: The final state after processing the input.
 
 `reset()`:
 Resets the FSM to its initial state.
@@ -57,7 +57,7 @@ Resets the FSM to its initial state.
 Checks if the FSM is currently in an accepting state.
 
 #### Returns:
-`boolean`: true if the FSM is in an accepting state
+- `boolean`: true if the FSM is in an accepting state
 
 
 ## Utility Functions
